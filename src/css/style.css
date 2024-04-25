@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* ===============================================================================
+Noi dung nay thuoc ve www.hocwebchuan.com, nham giup ban hieu ro hon ve bai tap.
+Ban co the tu do chia se, tuy nhien hay ghi ro nguon khi chia se.
+Ban khong duoc thuong mai hoa noi dung nay duoi moi hinh thuc.
+Moi thac mac hay lien he: support@hocwebchuan.com
+Chuc ban hoan thanh tot bai tap
+================================================================================== */
+
+* { /* Dieu khien cho tat ca cac the deu co padding va margin bang 0*/
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul { list-style: none; } /*Khong hien thi style cua list*/
+
+img { border: none; vertical-align: top; } /*Set border none cho image*/
+
+div#layout {
+	border: 1px solid #a3a2a3; /* Tao duong vien */
+	margin: 20px auto; /* Canh giua */
+	width: 900px; /* Chieu rong */
+}
+
